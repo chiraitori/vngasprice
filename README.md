@@ -15,5 +15,5 @@ A Go REST API that scrapes and serves Vietnam fuel prices from **Petrolimex** an
 
 ```bash
 go run main.go
-# API available at http://localhost:8080
+# API available at http://localhost:6320
 ```
