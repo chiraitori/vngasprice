@@ -68,13 +68,13 @@ func main() {
 		c.JSON(http.StatusOK, data)
 	})
 
-	log.Println("🚀 VN Petro Price API starting on :8080")
+	log.Println("🚀 VN Petro Price API starting on :6320")
 	log.Println("📍 GET /api/v1/prices          - All prices (Petrolimex + PVOil)")
 	log.Println("📍 GET /api/v1/prices/petrolimex - Petrolimex only")
 	log.Println("📍 GET /api/v1/prices/pvoil      - PVOil only")
 	log.Println("📍 GET /health                   - Health check")
 
-	if err := r.Run(":8080"); err != nil {
+	if err := r.Run(":6320"); err != nil {
 		log.Fatalf("Failed to start server: %v", err)
 	}
 }
